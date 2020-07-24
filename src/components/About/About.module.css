@@ -1,0 +1,36 @@
+.About {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #616161;
+  color: #e8e8e8
+}
+
+.Photo img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border-radius: 50%;
+
+}
+
+.Description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.Title {
+  text-align: left;
+  font-size: 54px;
+}
+
+.Text {
+  text-align: left;
+  font-size: 15px;
+}
+
+
