@@ -10,7 +10,12 @@ const WorkCard = (props) => {
 
   return (
     <div className={classes.WorkCard} style={style}>
-      {props.title}
+      <div className={classes.Title}>
+        {props.title}
+      </div>
+      <div>
+        Texto
+      </div>
     </div>
   )
 }

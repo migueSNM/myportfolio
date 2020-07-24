@@ -11,3 +11,12 @@
   padding-top: 30px;
   box-sizing: border-box;
 }
+
+.WorkCard:hover {
+  opacity: 0.5;
+  background-position: left;
+}
+
+.Title {
+  opacity: 1;
+}
