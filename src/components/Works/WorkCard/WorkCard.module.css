@@ -1,0 +1,13 @@
+.WorkCard {
+  background-color: #e0e0e0;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  color: #e0e0e0;
+  width: 200px;
+  height: 200px;
+  margin: 0 20px;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
