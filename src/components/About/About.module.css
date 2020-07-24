@@ -1,9 +1,8 @@
 .About {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   background-color: #616161;
-  color: #e8e8e8
 }
 
 .Photo img{
@@ -26,6 +25,7 @@
 .Title {
   text-align: left;
   font-size: 54px;
+  font-family: 'Merriweather';
 }
 
 .Text {
@@ -33,4 +33,8 @@
   font-size: 15px;
 }
 
-
+@media (min-width: 500px) {
+  .About {
+    flex-direction: row;
+  }
+}
