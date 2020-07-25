@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #616161;
+  padding: 100px;
 }
 
 .Photo img{
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   object-fit: cover;
   object-position: 50% 20%;
   border-radius: 50%;
@@ -17,15 +18,15 @@
 .Description {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin: 10px;
-  margin-left: 20px;
+  justify-content: space-evenly;
+  margin-left: 40px;
 }
 
 .Title {
   text-align: left;
   font-size: 54px;
   font-family: 'Merriweather';
+  color: #d5d819;
 }
 
 .Text {
