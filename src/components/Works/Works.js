@@ -7,7 +7,7 @@ import worksPhoto3 from '../../assets/images/works3.jpg'
 
 const Works = () => {
   return (
-    <section className={classes.Works}>
+    <section className={classes.Works} id="works">
       <div className={classes.Title}>
         Qué
       </div>

@@ -5,12 +5,15 @@ import heroImage from '../../assets/images/hero1.jpg'
 
 const About = () => {
   return (
-    <section className={classes.About} style={{
-      backgroundImage: `linear-gradient(
-        to bottom,
-        #00000000,
-        #000000
-      ), url(${heroImage})`
+    <section 
+      id="about"
+      className={classes.About} 
+      style={{
+        backgroundImage: `linear-gradient(
+          to bottom,
+          #00000000,
+          #000000
+        ), url(${heroImage})`
     }}>
       <div className={classes.Photo}>
         <img src={whoImage} alt="Who"/>
