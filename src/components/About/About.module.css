@@ -5,7 +5,6 @@
   background-color: #616161;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
 }
 
 .Photo {
@@ -36,7 +35,6 @@
   font-size: 80px;
   color: #ffdc12;
   z-index: 2;
-  margin-left: -100px;
 }
 
 .Text {
@@ -54,5 +52,9 @@
   .Photo img{
     width: 350px;
     height: 350px;
+  }
+
+  .Title {
+    margin-left: -100px;
   }
 }
