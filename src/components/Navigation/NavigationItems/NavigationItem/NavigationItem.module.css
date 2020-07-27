@@ -11,6 +11,7 @@
   box-sizing: border-box;
   display: block;
   color: inherit;
+  font-family: 'Lato';
 }
 
 .NavigationItem a:hover,

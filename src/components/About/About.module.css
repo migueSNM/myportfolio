@@ -3,16 +3,25 @@
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #616161;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 100px;
 }
 
+.Photo {
+  margin-bottom: -70px;
+  background-color: black;
+  border-radius: 50%;
+}
+
 .Photo img{
-  width: 350px;
-  height: 350px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   object-position: 50% 20%;
   border-radius: 50%;
-
+  opacity: 0.9;
+  z-index: 1;
 }
 
 .Description {
@@ -24,18 +33,26 @@
 
 .Title {
   text-align: left;
-  font-size: 54px;
-  font-family: 'Merriweather';
-  color: #d5d819;
+  font-size: 80px;
+  color: #ffdc12;
+  z-index: 2;
+  margin-left: -100px;
 }
 
 .Text {
   text-align: left;
   font-size: 15px;
+  margin-top: 50px;
 }
 
 @media (min-width: 500px) {
   .About {
     flex-direction: row;
+    padding: 100px;
+  }
+
+  .Photo img{
+    width: 350px;
+    height: 350px;
   }
 }

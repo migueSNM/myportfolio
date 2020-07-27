@@ -1,11 +1,11 @@
 import React from 'react'
 import classes from './About.module.css'
 import whoImage from '../../assets/images/who.jpg'
-
+import heroImage from '../../assets/images/hero1.jpg'
 
 const About = () => {
   return (
-    <section className={classes.About}>
+    <section className={classes.About} style={{backgroundImage: `url(${heroImage})`}}>
       <div className={classes.Photo}>
         <img src={whoImage} alt="Who"/>
       </div>
