@@ -1,0 +1,29 @@
+.Music {
+  padding: 60px;
+  background-size: cover;
+  background-position: 70% 50%;
+}
+
+.MusicCards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.Title {
+  text-align: center;
+  font-size: 80px;
+  color: #ffdc12;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 500px) {
+  .MusicCards {
+    flex-direction: row;
+  }
+
+  .Title {
+    text-align: right;
+    margin-right: 60px;
+  }
+}
