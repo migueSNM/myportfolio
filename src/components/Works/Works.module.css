@@ -1,7 +1,7 @@
 .Works {
   background-color: rgb(17,17,17);;
   background: linear-gradient(180deg, #111111 0%, #303030 55%, #7a7a7a 100%);
-  padding: 0 50px 50px 50px;
+  padding: 50px;
 }
 
 .WorkCards {
@@ -11,9 +11,11 @@
 }
 
 .Title {
-  text-align: center;
+  text-align: left;
   font-size: 80px;
   color: #ffdc12;
+  margin-bottom: 30px;
+  margin-left: 60px;
 }
 
 @media (min-width: 500px) {
