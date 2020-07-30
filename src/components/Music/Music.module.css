@@ -1,13 +1,7 @@
 .Music {
-  padding: 60px;
+  padding: 60px 0 0 0;
   background-size: cover;
   background-position: 70% 50%;
-}
-
-.MusicCards {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
 }
 
 .Title {
@@ -18,11 +12,5 @@
 }
 
 @media (min-width: 500px) {
-  .MusicCards {
-    flex-direction: row;
-  }
-
-  .Title {
-    text-align: center;
-  }
+  
 }
