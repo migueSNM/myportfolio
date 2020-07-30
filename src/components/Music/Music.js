@@ -2,8 +2,12 @@ import React from 'react'
 import classes from './Music.module.css'
 import heroImage from '../../assets/images/hero2.jpg'
 import ReactPlayer from 'react-player'
+import { useMediaQuery } from 'react-responsive'
+
 
 const Music = () => {
+  const isDesktop = useMediaQuery({ query: '(min-width: 500px)' })
+
   return (
     <section 
       className={classes.Music} 
@@ -16,16 +20,13 @@ const Music = () => {
         ), url(${heroImage})`
     }}
     >
-      <div className={classes.Title}>
-        Por qué
-      </div>
+      {isDesktop && <div className={classes.Photo}>
+        <img src={heroImage} alt="Why"/>
+      </div>}
       <ReactPlayer 
         url='https://soundcloud.com/migue-chirinos'
-        width='50%'
-        style={{
-          marginRight: 0,
-          marginLeft: 'auto'
-        }}
+        width={isDesktop ? '50%' : '100%'}
+        className={classes.ReactPlayer}
       />
     </section>
   )

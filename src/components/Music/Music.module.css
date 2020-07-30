@@ -11,6 +11,25 @@
   margin-bottom: 30px;
 }
 
+.ReactPlayer {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+
 @media (min-width: 500px) {
+  .Music {
+    display: flex;
+  }
+
+  .Photo {
+    width: 50%;
+  }
+  
+  .Photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+  }
   
 }
