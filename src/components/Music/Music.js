@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './Music.module.css'
-import heroImage from '../../assets/images/hero2.jpg'
+import musicPhoto1 from '../../assets/images/music1.jpg'
 import ReactPlayer from 'react-player'
 import { useMediaQuery } from 'react-responsive'
 
@@ -17,16 +17,22 @@ const Music = () => {
           to bottom,
           #7a7a7a,
           #00000000
-        ), url(${heroImage})`
+        )`
     }}
     >
       {isDesktop && <div className={classes.Photo}>
-        <img src={heroImage} alt="Why"/>
+        <img src={musicPhoto1} alt="Why"/>
       </div>}
       <ReactPlayer 
         url='https://soundcloud.com/migue-chirinos'
         width={isDesktop ? '50%' : '100%'}
+        height='inherit'
         className={classes.ReactPlayer}
+        config={{
+          soundcloud: {
+            show_artwork: false
+          }
+        }}
       />
     </section>
   )
