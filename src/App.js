@@ -4,7 +4,6 @@ import Layout from './hoc/Layout/Layout'
 import About from './components/About/About'
 import Works from './components/Works/Works'
 import Music from './components/Music/Music'
-import Photos from './components/Photos/Photos'
 import Contact from './components/Contact/Contact'
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
         <About/>
         <Works/>
         <Music/>
-        <Photos/>
         <Contact/>
       </Layout>
     </div>
