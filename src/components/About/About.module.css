@@ -49,11 +49,12 @@
 @media (min-width: 500px) {
   .About {
     flex-direction: row;
-    padding: 100px;
+    padding: 200px 500px;
   }
 
   .Photo {
     margin-bottom: -70px;
+    margin-right: 0;
     width: 350px;
     height: 350px;
   }
