@@ -1,8 +1,17 @@
 .Contact {
   background-color: #141414;
-  padding: 100px;
+  padding: 100px 0 40px 0;
 }
 
-.Contact a {
+.Social {
+  margin-bottom: 20px;
+}
+
+.Social a {
   margin: 0 10px;
+}
+
+.Contact small {
+  color: #e8e8e8;
+  margin: 20px 0;
 }
