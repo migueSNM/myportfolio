@@ -16,19 +16,19 @@ const Works = () => {
           title='FUSO' 
           backgroundImage={worksPhoto1} 
           primaryText='Funk y Progresivo'
-          secondaryText='Bajista desde 2017'
+          secondaryText='Bajista y Composición'
         />
         <WorkCard 
-          title='PAIMUN' 
+          title='SESION' 
           backgroundImage={worksPhoto2}
-          primaryText='Folk Rock'
-          secondaryText='Bajista desde 2019'
+          primaryText='Bajista sesionista'
+          secondaryText={['Proyecto Paimun', <br/>, 'Amira Binn']}
         />
         <WorkCard 
-          title='SOFAR' 
+          title='DEV' 
           backgroundImage={worksPhoto3}
-          primaryText='Eventos musicales en livings'
-          secondaryText='Sonidista desde 2017'
+          primaryText='Desarrollo Web Full Stack'
+          secondaryText={['React JS', <br/>, 'AWS Serverless']}
         />
       </div>
     </section>

@@ -2,8 +2,8 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   color: #FFFFFF;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 40%;
   margin: 20px auto;
   background-position: center;
   background-size: cover;
@@ -51,5 +51,7 @@
 @media (min-width: 500px) {
   .WorkCard{
     margin: 20px 10px;
+    height: 400px;
+    width: 300px;
   }
 }

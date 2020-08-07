@@ -44,14 +44,15 @@
 }
 
 .Text {
-  font-size: 20px;
-  margin-top: 50px;
+  font-size: 18px;
+  margin: 50px 40px;
+  text-align: left;
 }
 
 @media (min-width: 500px) {
   .About {
     flex-direction: row;
-    padding: 200px 200px 100px 200px;
+    padding: 200px 200px 50px 200px;
   }
 
   .PhotoTitle {

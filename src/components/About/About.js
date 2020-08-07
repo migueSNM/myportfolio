@@ -24,9 +24,9 @@ const About = () => {
         </div>
       </div>
       <div className={classes.Text}>
-        Bajista, pianista y sonidista, nacido en Buenos Aires en 1990. 
-        Apasionado por la música y la programación. 
-        Aficionado del MIDI.
+        Ingeniero electrónico, músico y programador web.<br/>
+        Apasionado por la música y los libros.<br/> 
+        Aficionado del MIDI
       </div>
     </section>
   )
