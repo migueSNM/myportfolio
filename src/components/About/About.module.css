@@ -37,7 +37,7 @@
 
 .Title {
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   color: #ffdc12;
   position: relative;
   z-index: 2;
@@ -72,6 +72,7 @@
   }
 
   .Title {
+    font-size: 80px;
     margin-right: -200px;
   }
 

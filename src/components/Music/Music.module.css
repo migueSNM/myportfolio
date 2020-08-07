@@ -6,7 +6,7 @@
 
 .Title {
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   color: #ffdc12;
   margin-bottom: 30px;
 }
@@ -19,8 +19,12 @@
 
 
 @media (min-width: 500px) {
-  .Music {
+  .MusicMedia {
     display: flex;
+  }
+
+  .Title {
+    font-size: 80px;
   }
 
   .Photo {

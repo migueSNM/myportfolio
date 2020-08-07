@@ -20,20 +20,25 @@ const Music = () => {
         )`
     }}
     >
-      {isDesktop && <div className={classes.Photo}>
-        <img src={musicPhoto1} alt="Why"/>
-      </div>}
-      <ReactPlayer 
-        url='https://soundcloud.com/migue-chirinos'
-        width={isDesktop ? '50%' : '100%'}
-        height='inherit'
-        className={classes.ReactPlayer}
-        config={{
-          soundcloud: {
-            show_artwork: false
-          }
-        }}
-      />
+      <div className={classes.Title}>
+        Por qué
+      </div>
+      <div className={classes.MusicMedia}>
+        {isDesktop && <div className={classes.Photo}>
+          <img src={musicPhoto1} alt="Why"/>
+        </div>}
+        <ReactPlayer 
+          url='https://soundcloud.com/migue-chirinos'
+          width={isDesktop ? '50%' : '100%'}
+          height='inherit'
+          className={classes.ReactPlayer}
+          config={{
+            soundcloud: {
+              show_artwork: false
+            }
+          }}
+        />
+      </div>
     </section>
   )
 }
