@@ -15,7 +15,7 @@ const Works = () => {
         <WorkCard 
           title='FUSO' 
           backgroundImage={worksPhoto1} 
-          primaryText='Funk y Progresivo'
+          primaryText='Funk Prog'
           secondaryText='Bajista y Composición'
         />
         <WorkCard 
