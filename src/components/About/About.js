@@ -24,7 +24,7 @@ const About = () => {
         </div>
       </div>
       <div className={classes.Text}>
-        Ingeniero eléctrónico haciendo Diseño Web.<br/>
+        Ingeniero electrónico haciendo Diseño Web.<br/>
         Toco el bajo y el piano.
       </div>
     </section>
