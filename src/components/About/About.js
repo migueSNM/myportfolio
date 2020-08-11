@@ -24,9 +24,8 @@ const About = () => {
         </div>
       </div>
       <div className={classes.Text}>
-        Ingeniero electrónico, músico y programador web.<br/>
-        Apasionado por la música y los libros.<br/> 
-        Aficionado del MIDI
+        Ingeniero eléctrónico haciendo Diseño Web.<br/>
+        Toco el bajo y el piano.
       </div>
     </section>
   )

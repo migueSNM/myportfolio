@@ -47,6 +47,7 @@
   font-size: 18px;
   margin: 50px 40px;
   text-align: left;
+  line-height: 2em;
 }
 
 @media (min-width: 500px) {
